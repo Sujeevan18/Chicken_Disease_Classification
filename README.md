@@ -4,6 +4,8 @@ conda create -n chicken python=3.8 -y
 conda activate chicken
 pip install -r requirements.txt
 
+main file run command - python main.py
+
 ## Workflows
 1. Update config.yaml
 2. Update secrets.yaml [Optional]
