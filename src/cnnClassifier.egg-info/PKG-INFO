@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Sujeevan18/Chicken_Disease_Classification
+Author: Sujeevan18
+Author-email: yogarajansujeevan2002@gmail.com
+Project-URL: Bug Tracker, https://github.com/Sujeevan18/Chicken_Disease_Classification/issues
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: summary
+
+# Chicken_Disease_Classification
+
+conda create -n chicken python=3.8 -y
+conda activate chicken
+pip install -r requirements.txt
+
+## Workflows
+1. Update config.yaml
+2. Update secrets.yaml [Optional]
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the dvc.yaml
+
